@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<models countycode="86">
+
+  <model type="GPRS"  class="adapter.GPRSMessageTransmitFactory">
+    <serial port = "COM1">
+       <serial-paramtet>
+          <BAUD_RATE> 9600 </BAUD_RATE>
+          <DATA_BITS> 8 </DATA_BITS>
+          <PARITY> 0 </PARITY>
+          <STOP_BITS> 0 </STOP_BITS>
+       </serial-paramtet>
+    </serial>
+  </model>
+  
+  <model type="CDMA"  class="adapter.CDMAMessageTransmitFactory">
+    <serial port = "COM1">
+       <serial-paramtet>
+          <BAUD_RATE> 115200 </BAUD_RATE>
+          <DATA_BITS> 8 </DATA_BITS>
+          <PARITY> 0 </PARITY>
+          <STOP_BITS> 0 </STOP_BITS>
+       </serial-paramtet>
+    </serial>
+  </model>
+  
+</models>
